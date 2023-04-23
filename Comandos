@@ -1,3 +1,36 @@
 Comandos basicos UNIX
-pwd - ver el directorio en el que estas.
+man - Nos despliega el manual del comando que queremos usar
+pwd - Ver el directorio en el que estas.
+ls - Listar ficheros
+cd Nombre_Archivo - Nos lleva a dentro de la carpeta que deseamos 
+cd / - Nos lleva a donde estan todos los ficheros principales de Linux
+clear -  Nos sirve para limiar la pantalla de la terminal
+mkdir - Nos sirve para poder crear directorios
+touch Fichero1.txt - Nos sirve para crear ficheros
+cp - Nos sirve para crear una copia de un archivo
+Control + l - Nos muele la linea de comandos hasta arriba
+cd .. - Nos sirve para retroceder una carpeta
+mv - Nos sirve para mover un archivo, de igual manera nos sirve para renombrar ficheros
+rm - Nos sirve para borrar un archivo
+rm -r - Nos sirve para borrar una carpeta, en este caso usamos el flag -r
+
+Banderas o flags
+Son opciones que le pasamos al comando para que pueda comportarse de manera distinta
+-r Significa recursivo lo que significa que se puede repedir indefinidamente
+
+-------------------------------------------------
+Ejemplos
+Ejemplo del comando man
+man rm
+Para copiar el fichero 1 en una carpeta se debe escribir el siguiente comando
+cp fichero1.txt carpeta2
+Para mover el fichero 2 a la carpeta se escribiria el siguiente comando
+mv fichero2.txt carpeta2
+Ejemplo de como renombrar un archivo
+mv fichero1.txt NuevoNombre.txt
+Ejemplo de como Borrar un archivo
+rm fichero1.txt
+Ejemplo de como borrar una carpeta
+rm -r Carpeta
+
 
