@@ -8,15 +8,32 @@ clear -  Nos sirve para limiar la pantalla de la terminal
 mkdir - Nos sirve para poder crear directorios
 touch Fichero1.txt - Nos sirve para crear ficheros
 cp - Nos sirve para crear una copia de un archivo
-Control + l - Nos muele la linea de comandos hasta arriba
+Control + l - Nos mueve la linea de comandos hasta arriba
 cd .. - Nos sirve para retroceder una carpeta
 mv - Nos sirve para mover un archivo, de igual manera nos sirve para renombrar ficheros
 rm - Nos sirve para borrar un archivo
 rm -r - Nos sirve para borrar una carpeta, en este caso usamos el flag -r
+file - Nos sirve para inspeccionar
+open . - Nos sirve para que abra la interfaz grafica del directorio
+cal - Nos muestra un calendario del mes en la terminal
+date - Nos muestra el dia con la hora en la que esta el sistema
+nano - Nos ayuda a editar archivos
+vi - Nos ayuda a editar archivos
+    / - Nos ayuda a encontrar elementos dentro del archivo
+    :q! - Nos sirve para salir del archivo vi sin guardar cambios
+cat - Nos sirve para leer archivos
+> - Nos sirve para hacer una redireccion (Sobre escribe los archivos)
+>> - Es una variacion de la redireccion (No sobre escribe, si no agrega el nuevo contenido en una nueva)
+grep - Nos ayuda a buscar coincidendias dentro de multiples archivos
+grep -P - Nos sirve para buscar patrones de texto dentro de ficheros
+echo "Texto a mostrar" - Escibe en consola lo que quieras
+
+
 
 Banderas o flags
 Son opciones que le pasamos al comando para que pueda comportarse de manera distinta
 -r Significa recursivo lo que significa que se puede repedir indefinidamente
+
 
 -------------------------------------------------
 Ejemplos
@@ -32,5 +49,19 @@ Ejemplo de como Borrar un archivo
 rm fichero1.txt
 Ejemplo de como borrar una carpeta
 rm -r Carpeta
-
+Ejemplo de como inspeccionar un archivo
+file foto1.jpg
+Ejemplo de redireccion
+man cat > fichero2.txt
+Ejemplo de como buscar dentro de linux
+Busca en 2 ficheros
+grep "match" fichero.txt fichero2.txt
+busca en todos los ficheros
+grep "match" *
+Busca en 1 fichero
+grep "123" fichero.txt
+Buscar solo los números dentro de 2 ficheros
+grep -P "\d" fichero.txt fichero2.txt
+ejemplo de echo
+echo "match" >> fichero.txt
 
