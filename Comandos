@@ -27,6 +27,9 @@ cat - Nos sirve para leer archivos
 grep - Nos ayuda a buscar coincidendias dentro de multiples archivos
 grep -P - Nos sirve para buscar patrones de texto dentro de ficheros
 echo "Texto a mostrar" - Escibe en consola lo que quieras
+find - Nos sirve para encontrar ficheros
+ls -lah - Nos sirve para listar los archivos más definidamente
+
 
 
 
@@ -64,4 +67,8 @@ Buscar solo los números dentro de 2 ficheros
 grep -P "\d" fichero.txt fichero2.txt
 ejemplo de echo
 echo "match" >> fichero.txt
+Ejemplo para encontrar un archivo con find
+find Carpeta -name "NombreArchivo.txt"
+find Ejercios -name "fichero.txt"
+
 
