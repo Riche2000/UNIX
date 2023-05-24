@@ -4,7 +4,8 @@ pwd - Ver el directorio en el que estas.
 ls - Listar ficheros
 cd Nombre_Archivo - Nos lleva a dentro de la carpeta que deseamos 
 cd / - Nos lleva a la carpeta raíz
-cd ~ - Nos lleva al directorio del usuario
+cd ~ - Nos lleva al directorio del usuario (home)
+cd . - Sirve para abrir ejecutables
 clear -  Nos sirve para limiar la pantalla de la terminal
 mkdir - Nos sirve para poder crear directorios
 touch Fichero1.txt - Nos sirve para crear ficheros
@@ -13,6 +14,7 @@ Control + l - Nos mueve la linea de comandos hasta arriba
 cd .. - Nos sirve para retroceder una carpeta
 mv - Nos sirve para mover un archivo, de igual manera nos sirve para renombrar ficheros
 rm - Nos sirve para borrar un archivo
+rmdir - Nos sirve para borrar directorios
 rm -r - Nos sirve para borrar una carpeta, en este caso usamos el flag -r
 file - Nos sirve para inspeccionar
 open . - Nos sirve para que abra la interfaz grafica del directorio
@@ -39,6 +41,8 @@ head - Muestra las primeras lineas de un archivo
 tail - Muestra las ultimas lineas de un archivo
 diff - compara el contenido de dos archivos
 chmod - asigna o quita permisos a un archivo
+./ - Sirve para poder ejecutar scripts archivos .sh
+exit - Nos sirve para cerrar la terminal
 
 
 Banderas o flags
@@ -78,5 +82,9 @@ echo "match" >> fichero.txt
 Ejemplo para encontrar un archivo con find
 find Carpeta -name "NombreArchivo.txt"
 find Ejercios -name "fichero.txt"
+Ejemplo de mkdir
+Aqui creamos la carpeta Preubas dentro de Documentos
+mkdir ~/Documentos/Pruebas
+
 
 
