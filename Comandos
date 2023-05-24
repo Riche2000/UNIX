@@ -3,7 +3,8 @@ man - Nos despliega el manual del comando que queremos usar
 pwd - Ver el directorio en el que estas.
 ls - Listar ficheros
 cd Nombre_Archivo - Nos lleva a dentro de la carpeta que deseamos 
-cd / - Nos lleva a donde estan todos los ficheros principales de Linux
+cd / - Nos lleva a la carpeta raíz
+cd ~ - Nos lleva al directorio del usuario
 clear -  Nos sirve para limiar la pantalla de la terminal
 mkdir - Nos sirve para poder crear directorios
 touch Fichero1.txt - Nos sirve para crear ficheros
