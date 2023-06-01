@@ -43,6 +43,8 @@ diff - compara el contenido de dos archivos
 chmod - asigna o quita permisos a un archivo
 ./ - Sirve para poder ejecutar scripts archivos .sh
 exit - Nos sirve para cerrar la terminal
+sudo su - Nos inicia como usuario Sudo se representa con # un usuario sin permisos se representa con $
+
 
 
 Banderas o flags
