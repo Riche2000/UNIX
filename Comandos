@@ -10,6 +10,7 @@ clear -  Nos sirve para limiar la pantalla de la terminal
 mkdir - Nos sirve para poder crear directorios
 touch Fichero1.txt - Nos sirve para crear ficheros
 cp - Nos sirve para crear una copia de un archivo
+scp - Nos sirve apra copiar archivos de un sistema local a remoto de manera segura
 Control + l - Nos mueve la linea de comandos hasta arriba
 cd .. - Nos sirve para retroceder una carpeta
 mv - Nos sirve para mover un archivo, de igual manera nos sirve para renombrar ficheros
