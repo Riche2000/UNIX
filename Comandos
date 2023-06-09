@@ -48,6 +48,7 @@ sudo su - Nos inicia como usuario Sudo se representa con # un usuario sin permis
 history - Nos sirve para ver el historias de los comandos que hemos usado
 which - Nos sirve para saber en que directorio se encuentran los comandos ejemplo which man
 alias - Nos sirven para crar nuestros propios comandos
+sh - Sirve para poder abrir archivos .sh
 
 Banderas o flags
 Son opciones que le pasamos al comando para que pueda comportarse de manera distinta
@@ -92,5 +93,9 @@ mkdir ~/Documentos/Pruebas
 Ejemplo de alias 
 alias l='ls -ltr'
 
-
+Para que los Alias se guarden en la terminal se debe de hacer lo siguiente
+nano .bashrc
+Al final del archivo se ecribe el alias ejemplo
+alias l='ls -ltr'
+Guardamos y salimos
 
